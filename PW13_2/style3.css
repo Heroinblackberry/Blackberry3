@@ -1,0 +1,189 @@
+	/* Убираем отступы и поля для всех элементов */
+*
+{
+	margin: 0;
+	padding: 0;
+}
+	/* Параметры и стили к телу документа */
+body
+{
+	background-image: url(http://333v.ru/uploads/0c/0cdf6a2f4064e49990f5581645cb6eec.jpg);
+	background-color: #0C020B;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+
+.og
+{
+        position: relative;
+        float:right;
+        margin-top:-90px;
+		margin-left: 0px;
+		font-family: 'Poiret One', cursive;
+		font-size: 12pt;
+		color: #000;
+}
+
+#bar
+{
+    left:-6.5em; 
+	top:250px; 
+    padding: .5em; 
+    margin: 0; 
+    position: fixed; 
+    height: 110px;; 
+    width: 160px;
+	background-color:RGBA(255, 255, 255, 0.7);
+	border-radius: 10px;
+	font-family: 'Poiret One', cursive;
+	font-size: 17pt;
+	color: #000;
+    float: left;
+    -webkit-transition: .2s ease-out;
+    -webkit-transition-delay: 0.5s;
+    -o-transition: .2s ease-out;
+    -o-transition-delay: 0.5s;
+    -moz-transition: .2s ease-out;
+    -moz-transition-delay: 0.5s;
+    transition: .2s ease-out;
+    transition-delay: 0.5s;
+}
+#bar:hover 
+{ 
+    left: 0; 
+}
+
+
+.header
+{
+	height: 120px;
+	width: 100%;
+	min-width: 800px ;
+}
+
+.logo
+{
+	
+	margin-top: 3%;
+	margin-left: 4.7%;
+	width: 40%;
+	background-color:RGBA(255, 255, 255, 0.3);
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 25pt;
+	color: #fff;
+}
+
+.menu
+{
+	width: 95%;
+	height: 15%;
+	min-width: 900px;
+	margin: 0% 0% 0% 4.7%;
+	border-radius: 10px;
+	
+
+}
+	
+.menu li
+{
+	margin-top: 2%;
+	display: block;
+	float: left;
+	width: 23%;
+	color: #fff;
+	font-family: 'Poiret One', cursive;
+	font-size: 20pt;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	cursor: pointer;
+	background-color:RGBA(255, 255, 255, 0.3);
+}	
+
+.menu li:first-child
+{
+	border-radius: 10px 0px 0 10px;
+}
+
+.menu li:last-child
+{
+	border-radius: 0px 10px 10px 0;
+}
+
+a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #000;
+}
+
+.brain
+{
+	
+	width: 70%;
+	height: 15%;
+	min-width: 700px;
+	margin: 20px 0 0 150px;
+	border-radius: 10px;
+	box-shadow: RGBA(255, 255, 255, 0.5) 5px 2px 5px;
+}
+
+.content
+{
+	min-height: calc(100vh - 20px);
+	
+}
+.bottom-content
+{
+	
+	margin: 20px 0px 10px 70px;
+	font-family: 'Poiret One', cursive;
+	font-size: 20pt;
+	color: #fff;
+	background-color:RGBA(255, 255, 255, 0.2);
+	border-radius: 10px;
+	width: 70.5%;
+	height: 15%;
+	min-width: 700px;
+	margin: 20px 0 0 150px;
+}
+
+.for
+{
+	height: 30px;
+	clear:both;
+}
+
+.footer
+{
+	background-color:RGBA(255, 255, 255, 0.3);
+	border-radius: 10px;
+	height:20px;
+	width: 800px;
+	margin: -20px auto 0;
+	position: relative;
+}
+
+.fot
+{
+	font-family: 'Poiret One', cursive;
+	font-size: 12pt;
+	color: #fff;
+	padding-left: 5px;
+}
+
+.footer span
+{
+	float: right;
+	margin-right: 5px;
+}

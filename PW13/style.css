@@ -1,0 +1,379 @@
+body
+{
+	background: url(http://pattern4site.ru/images/thematic/_thumb/8-fon-dlya-sayta.png) repeat;
+    animation: city1 10s linear infinite;
+    -webkit-animation: city1 10s linear infinite;
+}
+
+
+
+@keyframes city1
+{
+	from
+	{ 
+		background-position: 0 0, 1000px 100%;
+	}
+	
+	to 
+	{ 
+		background-position: 0 100%, 0 0; 
+	}
+}
+@-webkit-keyframes city1
+{
+	from 
+	{
+		background-position: 0 0, 1000px 100%;
+	}
+	
+	to 
+	{
+		background-position: 0 100%, 0 0;
+	}
+}
+
+
+@keyframes Start1
+{
+	from 
+	{ 
+		margin-top: 500px;
+		background-color: white;
+	}
+	to 
+	{
+		margin-top: 5px;
+		background-color:RGBA(0, 0, 0, 0.3);
+	}
+}
+@-webkit-keyframes Start1
+{
+	from 
+	{ 
+		margin-top: 500px;
+		background-color: white;
+	}
+	to 
+	{
+		margin-top: 5px;
+		background-color:RGBA(0, 0, 0, 0.3);
+	}
+}
+
+
+
+@keyframes Start2
+{
+	from 
+	{ 
+		background-color: gray;
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.3);
+	}
+}
+@-webkit-keyframes Start2
+{
+	from 
+	{ 
+		background-color: gray;
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.3);
+	}
+}
+
+
+
+@keyframes Start3
+{
+	from 
+	{ 
+		background-color: white;
+		transform: rotate(180deg);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.3);
+		transform: rotate(0 deg);
+	}
+}
+@-webkit-keyframes Start3
+{
+	from 
+	{ 
+		background-color: white;
+		transform: rotate(180deg);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.3);
+		transform: rotate(0deg);
+	}
+}
+
+
+
+@keyframes Start4
+{
+	from 
+	{ 
+		background-color: white;
+		transform: scale(5, 5);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.3);
+		transform: scale(1, 1);
+	}
+}
+@-webkit-keyframes Start4
+{
+	from 
+	{ 
+		background-color: white;
+		transform: scale(5, 5);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.3);
+		transform: scale(1, 1);
+	}
+}
+
+
+
+@keyframes Start5
+{
+	from 
+	{ 
+		background-color: white;
+		transform: translate(0px, 300px);
+	}
+	50%
+	{
+		transform: translate(0px, -300px);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.3);
+		transform: translate(0px, 0px);
+	}
+}
+@-webkit-keyframes Start5
+{
+	from 
+	{ 
+		background-color: white;
+		transform: translate(0px, 300px);
+	}
+	50%
+	{
+		transform: translate(0px, -300px);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.3);
+		transform: translate(0px, 0px);
+	}
+}
+
+
+
+main 
+{
+	width: 80%;
+	min-height: 800px;
+	display: block;
+	margin: auto;
+	background: black;
+	padding: 20px;
+}
+.area1
+{
+	background-color:RGBA(255, 255, 255, 0.3);
+	width:1000px;
+	height:60%;
+	margin: 0 auto;
+	margin-top:5px;
+	color:white;
+	font-size:4em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:center;
+	animation: Start1 2s ease-in-out;
+    -webkit-animation: Start1 2s ease-in-out;
+}
+.area2
+{
+	background-color:RGBA(255, 255, 255, 0.3);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:white;
+	font-size:2.5em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:center;
+	animation: Start2 2s ease-in-out;
+    -webkit-animation: Start2 2s ease-in-out;
+}
+.area3
+{
+	background-color:RGBA(255, 255, 255, 0.3);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:white;
+	font-size:2.5em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:center;
+	animation: Start3 2s ease-in-out;
+    -webkit-animation: Start3 2s ease-in-out;
+}
+.area4
+{
+	background-color:RGBA(255, 255, 255, 0.3);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:white;
+	font-size:3em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:center;
+	animation: Start4 2s ease-in-out;
+    -webkit-animation: Start4 2s ease-in-out;
+}
+.area5
+{
+	background-color:RGBA(255, 255, 255, 0.3);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:white;
+	font-size:2.6em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:center;
+	animation: Start5 2s ease-in-out;
+    -webkit-animation: Start5 2s ease-in-out;
+}
+.area6
+{
+	background-color:RGBA(255, 255, 255, 0.3);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:white;
+	font-size:2em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:justify;
+	animation: Start1 2s ease-in-out;
+    -webkit-animation: Start1 2s ease-in-out;
+}
+.area7
+{
+	background-color:RGBA(255, 255, 255, 0.3);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:white;
+	font-size:2.5em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:justify;
+	animation: Start2 2s ease-in-out;
+    -webkit-animation: Start2 2s ease-in-out;
+}
+.area8
+{
+	background-color:RGBA(255, 255, 255, 0.3);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:white;
+	font-size:2.4em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:justify;
+	animation: Start4 2s ease-in-out;
+    -webkit-animation: Start4 2s ease-in-out;
+}
+.area9
+{
+	background-color:RGBA(255, 255, 255, 0.3);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:white;
+	font-size:1.7em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:justify;
+	animation: Start5 2s ease-in-out;
+    -webkit-animation: Start5 2s ease-in-out;
+}
+p
+{
+	
+	animation: Start1 2s ease-in-out;
+    -webkit-animation: Start1 2s ease-in-out;
+}
+img
+{
+	width: 100%;
+	border-radius: 10px;
+	animation: Start1 2s ease-in-out;
+    -webkit-animation: Start1 2s ease-in-out;
+}
+.ui
+{
+	margin: 0 auto;
+	width: 40%;
+	border-radius: 10px;
+	animation: Start1 2s ease-in-out;
+    -webkit-animation: Start1 2s ease-in-out;
+}
+.uii
+{
+	width: 20%;
+	border-radius: 10px;
+	animation: Start1 2s ease-in-out;
+    -webkit-animation: Start1 2s ease-in-out;
+}
+.uiii
+{
+	width: 60%;
+	border-radius: 10px;
+	animation: Start1 2s ease-in-out;
+    -webkit-animation: Start1 2s ease-in-out;
+}
+a
+{
+	text-decoration: none;
+}
+.suchka
+{
+	font-size: 2em;
+	color:white;
+	text-align: center;
+	background-color:RGBA(255, 255, 255, 0.3);
+	width: 20%;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
