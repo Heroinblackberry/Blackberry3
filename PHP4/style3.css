@@ -1,0 +1,61 @@
+
+body
+{
+	background-image: url(http://www.bang.vn/ezupload/22-11-2011/047-paper-1600x1200-zcool-com-cn-1321954618.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
+	margin: 0%;
+}
+.content
+{
+	width: 50%;
+	height: 40%;
+	display: inline;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+h1
+{
+	font-family: 'Marck Script', cursive;
+	font-size: 35pt;
+	text-align: center;
+	text-shadow: 2px 1px 2px white;
+	
+}
+.one
+{
+	font-family: 'Marck Script', cursive;
+	font-size: 25pt;
+	text-shadow: 2px 1px 2px white;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+.adress
+{
+	font-family: 'Marck Script', cursive;
+	font-size: 20pt;
+}
+.two
+{
+	
+	font-family: 'Marck Script', cursive;
+	font-size: 25pt;
+	text-shadow: 2px 1px 2px white;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+.par
+{
+	font-family: 'Marck Script', cursive;
+	font-size: 20pt;
+}
+.nai
+{
+	
+	margin-left: 42%;
+	
+}
