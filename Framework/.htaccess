@@ -1,0 +1,20 @@
+RewriteBase/ #установка базового URL для преобразований в контексте каталога
+
+RewriteEngine On #включение mod_rewrite
+
+RewriteRule ^$ /app/WebRoot/[L]  #передаем путь от места, где находится .htaccess до запрошенного файла
+
+RewriteRule ^(.*)$ /app/WebRoot/$1[L] #передаем путь от места, где находится .htaccess до запрошенного файла
+
+RewriteBase/ #установка базового URL для преобразований в контексте каталога
+
+AddTypeapplication/octet-stream.exe #при обращении к данным файлам им будет предлагаться скачать их на компьютер
+AddTypeapplication/x-rar-compressed.rar #распознование RAR-архивов
+AddDefaultCharsetutf -8 #кодировка UTF-8 по-умолчанию
+
+RewriteEngineOn #включение mod_rewrite
+
+RewriteCond%{REQUEST_FILENAME}!-f #условие, что все существующие файлы не будут обрабатываться регулярным выражением
+RewriteCond%{REQUEST_FILENAME}!-d #условие, что все существующие папки не будут обрабатываться регулярным выражением
+
+RewriteRule^(.*)$ index.php[L] #регулярное выражение, в нашем случае — при любой строке запроса будет открывать index.php, добавляя её (строку запроса) в $_SERVER['REQUEST_URI'].
