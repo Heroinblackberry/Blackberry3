@@ -1,14 +1,16 @@
+﻿
 <!DOCTYPE html>
 <html>
-	<!-- Заголовок страницы, подключение css, кодировка -->
 	<head>
 		<meta charset="utf-8">
 			<title>Feistel Network</title>
 			<link rel="stylesheet" type="text/css" href="style3.css">
-			<link rel="shortcut icon" href="system-config-authentication_4918.ico" type="image/x-icon">
+			<link rel="shortcut icon" href="<?php echo SERVER;?>images/system-config-authentication_4918.ico" type="image/x-icon">
 			<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="<?php echo SERVER; ?>style/style3.css" />
+		<title><?php echo $title; ?></title>
 	</head>
-	<!-- Тело документа -->
 	<body>
 		<div class="header">
 			
@@ -18,8 +20,8 @@
 				<ul>
 					<li><a href="">Главная</a></li>
 					<li><a href="">История</a></li>
-					<li><a href="">Теория</a></li>
 					<li><a href="">Реализация</a></li>
+					<?php echo $menu;?>
 				</ul>
 			</div>
 			
@@ -31,13 +33,9 @@
 			<img class="brain" src="http://actimir.ru/landing/garret-jonston-digital-brand-strategy/img/fon_garrett.jpg">
 			</div>
 			<div class="bottom-content">
-			Текст
-			Текст
-		
-			Текстм
-			м
-			м
-			Текст</div>
+			Этот сайт создан для каких-то очень важных целей.<br>
+			В том числе для того, чтобы получить зачет. <br>
+			Framework.<br></div>
 		
 		
 		<div class="for"></div>
@@ -52,8 +50,8 @@
             <ul id="bar">
 				<li><a href="index.html">Главная</a></li>
 				<li><a href="index.html">История</a></li>
-				<li><a href="index.html">Теория</a></li>
 				<li><a href="index.html">Реализация</a></li>
+				<li><?php echo $menu;?></li>
 				<div class="og"> М<br> Е<br>Н<br>Ю</div>
             </ul>
         </div>

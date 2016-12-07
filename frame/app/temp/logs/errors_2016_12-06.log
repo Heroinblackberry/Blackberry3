@@ -1,0 +1,5 @@
+[06-Dec-2016 18:27:21 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/u314389722/public_html/app/View/Pages/articles.php on line 7
+[06-Dec-2016 18:27:39 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/u314389722/public_html/app/View/Pages/articles.php on line 7
+[06-Dec-2016 18:28:01 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/u314389722/public_html/app/View/Pages/articles.php on line 7
+[06-Dec-2016 18:30:06 UTC] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/u314389722/public_html/app/View/Pages/articles.php on line 6
+[06-Dec-2016 18:30:12 UTC] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/u314389722/public_html/app/View/Pages/articles.php on line 6
